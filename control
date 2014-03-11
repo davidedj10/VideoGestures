@@ -1,0 +1,9 @@
+Package: com.davidedj10.VideoGestures
+Name: VideoGestures
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: davidedj10
+Author: davidedj10
+Section: Tweaks

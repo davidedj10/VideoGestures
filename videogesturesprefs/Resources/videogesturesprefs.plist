@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.davidedj10.videogestures/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.davidedj10.videogesturesprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable or disable globally VideoGestures.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Volume scrolling ratio</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.davidedj10.videogestures/prefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.05</real>
+			<key>defaults</key>
+			<string>com.davidedj10.videogesturesprefs</string>
+			<key>key</key>
+			<string>volumescrollingratio</string>
+			<key>label</key>
+			<string>Volume Ratio</string>
+			<key>max</key>
+			<real>0.1</real>
+			<key>min</key>
+			<real>0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Select the volume scrolling ratio. (lower values will increase the precision of the scroll but will be required more scrolls to complete a 0 to 1 range.)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Video scrolling ratio</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.davidedj10.videogestures/prefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>3.0</real>
+			<key>defaults</key>
+			<string>com.davidedj10.videogesturesprefs</string>
+			<key>key</key>
+			<string>videoscrollingratio</string>
+			<key>label</key>
+			<string>Video Foward/Rewind ratio</string>
+			<key>max</key>
+			<real>10</real>
+			<key>min</key>
+			<real>0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Select the video scrolling ratio (in Seconds). (Higher values makes video scrolling faster but less accurate.)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Video scrolling mode</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.davidedj10.videogestures/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.davidedj10.videogesturesprefs</string>
+			<key>key</key>
+			<string>naturalscrolling</string>
+			<key>label</key>
+			<string>Natural Scrolling</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>If you select the natural scrolling when you will scroll from the right to the left the video will go forward and from left to the right will be rewinded.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Infos:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Follow:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>Follow me on Twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Github:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>View Source code!</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Donate:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+			<key>label</key>
+			<string>Donate!</string>
+		</dict>
+		<dict>
+	    	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>VideoGestures 0.1 © 2014 @Davidedj10.</string>
+	</dict>	
+	</array>
+	<key>title</key>
+	<string>VideoGestures</string>
+</dict>
+</plist>

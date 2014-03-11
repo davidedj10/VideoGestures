@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = videogesturesprefs;
+	cell = PSLinkCell;
+	detail = videogesturesprefsListController;
+	icon = videogesturesprefs.png;
+	isController = 1;
+	label = VideoGestures;
+    };
+}
