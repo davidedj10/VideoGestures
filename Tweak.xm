@@ -8,6 +8,7 @@ float volumeScroller = 0.0;
 float timeScroller = 0.0;
 float volumeScrollerRatio = 0.05;
 float timeScrollerRatio = 3.0;
+//Pretty awkward method to determine the swipe but i dont know how to do that in a different way :D
 int scrolling_direction = 0;
 NSDictionary *_preferences;
 
@@ -35,6 +36,7 @@ return contentPlayer;
 
 }
 
+//that's all
 %new
 -(void)Slide:(UIPanGestureRecognizer *)recognizer {
 
@@ -116,6 +118,7 @@ if(timeScrollerRatio == 0.00){
 
 }
 
+//notifications YAY!
 static inline void prefs(CFNotificationCenterRef center,
                                     void *observer,
                                     CFStringRef name,
